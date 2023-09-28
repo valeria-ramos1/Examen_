@@ -1,0 +1,9 @@
+#STEP 1
+def name():
+  print("¿me puedes decir la temperatura en grados celsius?")
+  celsius = float(input())
+  fahrenheit = (celsius * 9/5)+32
+  print("el clima en fahrenhei es de:",fahrenheit) 
+  
+#STEP 2
+name()
